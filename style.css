@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    outline: none;
+}
+body {
+    background-color: #bbb;
+}
+.image {
+    width: 15%;
+    top: 20px;
+    left: 10px;
+}
+img {
+    width: 35px;
+    position: relative;
+    top: 36%;
+    right: 3%;
+}
+img:hover {
+    cursor: pointer;
+}
+.container {
+    width: 100%;
+    background-image: url(https://delinea.com/hubfs/Delinea/backgrounds/delinea-background-purple-tight.jpg) !important;
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    height: 80vh;
+    border-bottom: 5px solid #00ff5a;
+}
+
+p {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+}
+input {
+    width: calc(100% - 62px);
+    position: relative;
+    top: 35%;
+    left: 3%;
+    text-indent: 5px;
+    margin: 10px 0px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 0.4em 10px 0.4em 10px;
+    line-height: 1.7em;
+}
+button {
+    margin: auto;
+    display: block;
+    width: 375px;
+    background: #00FFD1;
+    border-bottom: #00FFD2 3px solid;
+    border-left: #00FFD2 1px solid;
+    border-right: #00FFD2 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: #231556;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    top: 40%;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+button:hover {
+    color: #fff;
+}
+
+
+
